@@ -1,0 +1,17 @@
+.header {
+	padding-top: 40px;
+}
+
+.header-nav {
+	display: flex;
+	gap: 24px;
+}
+
+.header-nav__item {
+	font-size: 18px;
+	font-weight: 600;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

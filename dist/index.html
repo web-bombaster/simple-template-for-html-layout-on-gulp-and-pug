@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test site</title>
+    <link href="css/main.min.css" rel="stylesheet">
+  </head>
+  <body id="top">
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav"><a class="header-nav__item" href="/">Главная</a><a class="header-nav__item" href="/about.html">О нас</a></nav>
+      </div>
+    </header>
+    <div class="container">
+      <main>
+        <h1>Главная</h1><img src="/assets/images/css.png" alt="">
+        <p>Это главная страница</p><a class="button" href="#">Заказать звонок</a>
+      </main>
+    </div>
+    <footer>
+      <div class="container">
+        <p>© 2026 My Site</p>
+      </div>
+    </footer>
+    <div class="hidden">
+      <form class="form" id="zayavka2">
+        <h3 class="text-center">Оставить заявку</h3>
+        <div class="before name">
+          <input class="jsFormText" name="name" type="text" value="" placeholder="Ваше имя" required="">
+        </div>
+        <div class="before phone">
+          <input class="jsFormPhone" id="af_phone" name="phone" type="tel" value="" placeholder="Контактный телефон" required="">
+        </div>
+        <div class="before mail">
+          <input class="jsFormMail" name="mail" type="email" value="" placeholder="Ваш Email" required="">
+        </div>
+        <div class="before comment">
+          <textarea class="jsFormText" name="comment" placeholder="Ваше сообщение"></textarea>
+        </div>
+        <label class="control-label polytic" for="zayavka2-polytic">
+          <input class="polytic jsFormCheckbox" id="zayavka2-polytic" name="soglasie" type="checkbox" value="yes" required="">Даю согласие на обработку моих персональных данных на условиях, указанных в &#32;<a href="#">Политике конфиденциальности</a>
+        </label>
+        <button class="btn submit" name="submit" type="button">Отправить</button>
+      </form>
+    </div>
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
